@@ -1,0 +1,11 @@
+C:\Users\Alberto\source\repos\FileReadLAzy\FileReadLAzy\obj\Debug\netcoreapp2.1\FileReadLAzy.csprojAssemblyReference.cache
+C:\Users\Alberto\source\repos\FileReadLAzy\FileReadLAzy\obj\Debug\netcoreapp2.1\FileReadLAzy.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\source\repos\FileReadLAzy\FileReadLAzy\obj\Debug\netcoreapp2.1\FileReadLAzy.AssemblyInfoInputs.cache
+C:\Users\Alberto\source\repos\FileReadLAzy\FileReadLAzy\obj\Debug\netcoreapp2.1\FileReadLAzy.AssemblyInfo.cs
+C:\Users\Alberto\source\repos\FileReadLAzy\FileReadLAzy\bin\Debug\netcoreapp2.1\FileReadLAzy.deps.json
+C:\Users\Alberto\source\repos\FileReadLAzy\FileReadLAzy\bin\Debug\netcoreapp2.1\FileReadLAzy.runtimeconfig.json
+C:\Users\Alberto\source\repos\FileReadLAzy\FileReadLAzy\bin\Debug\netcoreapp2.1\FileReadLAzy.runtimeconfig.dev.json
+C:\Users\Alberto\source\repos\FileReadLAzy\FileReadLAzy\bin\Debug\netcoreapp2.1\FileReadLAzy.dll
+C:\Users\Alberto\source\repos\FileReadLAzy\FileReadLAzy\bin\Debug\netcoreapp2.1\FileReadLAzy.pdb
+C:\Users\Alberto\source\repos\FileReadLAzy\FileReadLAzy\obj\Debug\netcoreapp2.1\FileReadLAzy.dll
+C:\Users\Alberto\source\repos\FileReadLAzy\FileReadLAzy\obj\Debug\netcoreapp2.1\FileReadLAzy.pdb
