@@ -1,8 +1,12 @@
 ﻿using System.Collections;
 using System.IO;
 
-namespace FileReadLAzy
+namespace FileReadLazy
 {
+    /// <summary>
+    /// Reade file from local storage from one limited buffer. When arrive in one point where the content is not in the memory,
+    /// the required content will load in the memory
+    /// </summary>
     class MemoryReaderFileManager : IEnumerable
     {
         private string fileName;
@@ -35,6 +39,10 @@ namespace FileReadLAzy
             initi();
         }
 
+        /// <summary>
+        /// Return the next byte from file
+        /// </summary>
+        /// <returns></returns>
         public byte GetNext()
         {
             byte toReturn =  GetByte(fileCursor);
@@ -42,6 +50,11 @@ namespace FileReadLAzy
             return toReturn;
         }
 
+        /// <summary>
+        /// Return byte contained in the index 
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns></returns>
         private byte GetByte(long index)
         {
             if(index > this.end)
@@ -51,12 +64,18 @@ namespace FileReadLAzy
             return buffer[index - start];
         }
 
+        /// <summary>
+        /// Return true if exist one more byte to read
+        /// </summary>
+        /// <returns></returns>
         public bool HasNext()
         {
             return fileCursor < fileLength;
         }
 
-
+        /// <summary>
+        /// Instance the initial values
+        /// </summary>
         private void initi()
         {
             this.start = 0;
@@ -66,6 +85,9 @@ namespace FileReadLAzy
             totalRead += bufferLength;
         }
 
+        /// <summary>
+        /// Reload the buffer with the new bytes loaded from file
+        /// </summary>
         public void Next()
         {
             if (!finished)
@@ -82,12 +104,19 @@ namespace FileReadLAzy
             }
         }
 
+        /// <summary>
+        /// Close file channels, that is, BinaryReader and FileStreamer classes
+        /// </summary>
         public void Close()
         {
             reader.Close();
             file.Close();
         }
 
+        /// <summary>
+        /// Return one Enumerator for class utilization in foreach loops
+        /// </summary>
+        /// <returns></returns>
         public IEnumerator GetEnumerator()
         {
             MyEnumarator ienum = new MyEnumarator(this);

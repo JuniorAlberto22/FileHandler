@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alberto\\source\\repos\\FileReadLAzy\\FileReadLAzy\\FileReadLAzy.csproj",
-      "projectName": "FileReadLAzy",
-      "projectPath": "C:\\Users\\Alberto\\source\\repos\\FileReadLAzy\\FileReadLAzy\\FileReadLAzy.csproj",
+      "projectUniqueName": "C:\\Users\\Alberto\\Desktop\\Nova pasta (2)\\FileHandler\\FileReadLazy\\FileReadLAzy\\FileReadLazy.csproj",
+      "projectName": "FileReadLazy",
+      "projectPath": "C:\\Users\\Alberto\\Desktop\\Nova pasta (2)\\FileHandler\\FileReadLazy\\FileReadLAzy\\FileReadLazy.csproj",
       "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alberto\\source\\repos\\FileReadLAzy\\FileReadLAzy\\obj\\",
+      "outputPath": "C:\\Users\\Alberto\\Desktop\\Nova pasta (2)\\FileHandler\\FileReadLazy\\FileReadLAzy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

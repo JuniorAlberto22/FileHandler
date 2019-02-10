@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Text;
-using static FileReadLAzy.MemoryWriteFileManager;
+using static FileReadLazy.MemoryWriteFileManager;
 
-namespace FileReadLAzy
+namespace FileReadLazy
 {
     class MyMain
     {
@@ -33,7 +30,7 @@ namespace FileReadLAzy
             memoryReader.Close();
             Console.WriteLine("Read Finalized");
 
-            //Lendo arquivo e somando +1 em cada byte do aquivo
+            //Reading file and removing +1 in each byte of the file
             MemoryWriteFileManager writeManager = new MemoryWriteFileManager(new List<TreatByteArray>()
             {
                 (reader, filerPart, start, end) => {
@@ -48,7 +45,7 @@ namespace FileReadLAzy
             writeManager.Process();
             Console.WriteLine("Write Finalized");
 
-            //Lendo arquivo e removendo -1 em cada byte do aquivo
+            //Reading file and removing -1 in each byte of the file
             writeManager = new MemoryWriteFileManager(new List<TreatByteArray>()
             {
                 (reader, filerPart, start, end) => {

@@ -1,4 +1,4 @@
-﻿namespace FileReadLAzy
+﻿namespace FileReadLazy
 {
     public class BinareReader
     {
